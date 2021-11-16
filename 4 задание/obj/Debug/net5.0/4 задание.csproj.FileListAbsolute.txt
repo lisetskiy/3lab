@@ -1,0 +1,16 @@
+C:\Users\lusetskuy\source\repos\4 задание\bin\Debug\net5.0\4 задание.exe
+C:\Users\lusetskuy\source\repos\4 задание\bin\Debug\net5.0\4 задание.deps.json
+C:\Users\lusetskuy\source\repos\4 задание\bin\Debug\net5.0\4 задание.runtimeconfig.json
+C:\Users\lusetskuy\source\repos\4 задание\bin\Debug\net5.0\4 задание.runtimeconfig.dev.json
+C:\Users\lusetskuy\source\repos\4 задание\bin\Debug\net5.0\4 задание.dll
+C:\Users\lusetskuy\source\repos\4 задание\bin\Debug\net5.0\ref\4 задание.dll
+C:\Users\lusetskuy\source\repos\4 задание\bin\Debug\net5.0\4 задание.pdb
+C:\Users\lusetskuy\source\repos\4 задание\obj\Debug\net5.0\4 задание.csproj.AssemblyReference.cache
+C:\Users\lusetskuy\source\repos\4 задание\obj\Debug\net5.0\4 задание.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lusetskuy\source\repos\4 задание\obj\Debug\net5.0\4 задание.AssemblyInfoInputs.cache
+C:\Users\lusetskuy\source\repos\4 задание\obj\Debug\net5.0\4 задание.AssemblyInfo.cs
+C:\Users\lusetskuy\source\repos\4 задание\obj\Debug\net5.0\4 задание.csproj.CoreCompileInputs.cache
+C:\Users\lusetskuy\source\repos\4 задание\obj\Debug\net5.0\4 задание.dll
+C:\Users\lusetskuy\source\repos\4 задание\obj\Debug\net5.0\ref\4 задание.dll
+C:\Users\lusetskuy\source\repos\4 задание\obj\Debug\net5.0\4 задание.pdb
+C:\Users\lusetskuy\source\repos\4 задание\obj\Debug\net5.0\4 задание.genruntimeconfig.cache
