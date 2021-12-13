@@ -6,32 +6,41 @@ namespace _10_задание
     {
         static void Main(string[] args)
         {
-            Console.Write("Введите кол-во элементов массива: ");
-            int value = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine();
-           
-            int[] mas = new int[value];
-            int minnumber = mas[0];
-            Random ran = new Random();
-
-            for(int i = 0; i < value; i++)
+            try
             {
-                mas[i] = ran.Next(-100, 100);
-                Console.Write(mas[i] + "\t");
-            }
-            Console.WriteLine();
-            Console.WriteLine();
-            
-            for (int i = 1 ; i < mas.Length; i++)
-            {
-                if (mas[i] < minnumber)
+                Console.WriteLine("Программа работает с числами! \nПожалуйста введите число.");
+                Console.Write("Введите кол-во элементов массива: ");
+                int value = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine();
+
+                int[] mas = new int[value];
+                int minnumber = mas[0];
+                Random ran = new Random();
+
+                for (int i = 0; i < value; i++)
                 {
-                    minnumber = mas[i];
+                    mas[i] = ran.Next(-100, 100);
+                    Console.Write(mas[i] + "\t");
                 }
+                Console.WriteLine();
+                Console.WriteLine();
+
+                for (int i = 1; i < mas.Length; i++)
+                {
+                    if (mas[i] < minnumber)
+                    {
+                        minnumber = mas[i];
+                    }
+                }
+                Console.WriteLine("Минимальное значение: " + minnumber);
+                Console.ReadKey();
             }
-            Console.WriteLine("Минимальное значение: " + minnumber);
-            Console.ReadKey();
+            catch
+            {
+                Console.WriteLine("Вы ввели не число");
+            }
+            
         }
     }
 }

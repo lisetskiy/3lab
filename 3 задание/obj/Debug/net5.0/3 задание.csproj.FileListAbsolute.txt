@@ -14,3 +14,19 @@ C:\1 Учёба\Программирование\Лабораторные\3 ла
 C:\1 Учёба\Программирование\Лабораторные\3 лабораторная\3 задание\obj\Debug\net5.0\ref\3 задание.dll
 C:\1 Учёба\Программирование\Лабораторные\3 лабораторная\3 задание\obj\Debug\net5.0\3 задание.pdb
 C:\1 Учёба\Программирование\Лабораторные\3 лабораторная\3 задание\obj\Debug\net5.0\3 задание.genruntimeconfig.cache
+C:\Users\lusetskuy\Documents\GitHub\3lab\3 задание\bin\Debug\net5.0\3 задание.exe
+C:\Users\lusetskuy\Documents\GitHub\3lab\3 задание\bin\Debug\net5.0\3 задание.deps.json
+C:\Users\lusetskuy\Documents\GitHub\3lab\3 задание\bin\Debug\net5.0\3 задание.runtimeconfig.json
+C:\Users\lusetskuy\Documents\GitHub\3lab\3 задание\bin\Debug\net5.0\3 задание.runtimeconfig.dev.json
+C:\Users\lusetskuy\Documents\GitHub\3lab\3 задание\bin\Debug\net5.0\3 задание.dll
+C:\Users\lusetskuy\Documents\GitHub\3lab\3 задание\bin\Debug\net5.0\ref\3 задание.dll
+C:\Users\lusetskuy\Documents\GitHub\3lab\3 задание\bin\Debug\net5.0\3 задание.pdb
+C:\Users\lusetskuy\Documents\GitHub\3lab\3 задание\obj\Debug\net5.0\3 задание.csproj.AssemblyReference.cache
+C:\Users\lusetskuy\Documents\GitHub\3lab\3 задание\obj\Debug\net5.0\3 задание.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lusetskuy\Documents\GitHub\3lab\3 задание\obj\Debug\net5.0\3 задание.AssemblyInfoInputs.cache
+C:\Users\lusetskuy\Documents\GitHub\3lab\3 задание\obj\Debug\net5.0\3 задание.AssemblyInfo.cs
+C:\Users\lusetskuy\Documents\GitHub\3lab\3 задание\obj\Debug\net5.0\3 задание.csproj.CoreCompileInputs.cache
+C:\Users\lusetskuy\Documents\GitHub\3lab\3 задание\obj\Debug\net5.0\3 задание.dll
+C:\Users\lusetskuy\Documents\GitHub\3lab\3 задание\obj\Debug\net5.0\ref\3 задание.dll
+C:\Users\lusetskuy\Documents\GitHub\3lab\3 задание\obj\Debug\net5.0\3 задание.pdb
+C:\Users\lusetskuy\Documents\GitHub\3lab\3 задание\obj\Debug\net5.0\3 задание.genruntimeconfig.cache

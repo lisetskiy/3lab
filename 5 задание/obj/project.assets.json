@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\1 Учёба\\Программирование\\Лабораторные\\3 лабораторная\\5 задание\\5 задание.csproj",
+      "projectUniqueName": "C:\\Users\\lusetskuy\\Documents\\GitHub\\3lab\\5 задание\\5 задание.csproj",
       "projectName": "5 задание",
-      "projectPath": "C:\\1 Учёба\\Программирование\\Лабораторные\\3 лабораторная\\5 задание\\5 задание.csproj",
+      "projectPath": "C:\\Users\\lusetskuy\\Documents\\GitHub\\3lab\\5 задание\\5 задание.csproj",
       "packagesPath": "C:\\Users\\lusetskuy\\.nuget\\packages\\",
-      "outputPath": "C:\\1 Учёба\\Программирование\\Лабораторные\\3 лабораторная\\5 задание\\obj\\",
+      "outputPath": "C:\\Users\\lusetskuy\\Documents\\GitHub\\3lab\\5 задание\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

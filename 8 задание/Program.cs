@@ -5,30 +5,38 @@ namespace _8_задание
     class program
     {
         static void Main(string[] args)
-        {        
-            Console.Write("Введите размер матрицы :");
-            int value = Convert.ToInt32(Console.ReadLine());
-
-            if (value < 0)
+        {
+            try
             {
-                Console.WriteLine("Введите значение больше 0");
-            }
+                Console.WriteLine("Программа работает с числами! \nПожалуйста введите число.");
+                Console.Write("Введите размер матрицы :");
+                int value = Convert.ToInt32(Console.ReadLine());
 
-            double[,] mas = new double[value, value];                                                                
-            Random ran = new Random();
-
-            for (int i = 0; i < value; i++)
-            {
-                for (int j = 0; j < value; j++)
+                if (value < 0)
                 {
-                    mas[i, j] = ran.Next(0, 10);
-                    Console.Write(mas[i, j] + "\t");
+                    Console.WriteLine("Введите значение больше 0");
                 }
-                Console.WriteLine();
-                Console.WriteLine();
-            }           
-            Console.WriteLine("Определитель матрицы: " + Determinantmatrix(mas));
-            Console.ReadKey();
+
+                double[,] mas = new double[value, value];
+                Random ran = new Random();
+
+                for (int i = 0; i < value; i++)
+                {
+                    for (int j = 0; j < value; j++)
+                    {
+                        mas[i, j] = ran.Next(0, 10);
+                        Console.Write(mas[i, j] + "\t");
+                    }
+                    Console.WriteLine();
+                    Console.WriteLine();
+                }
+                Console.WriteLine("Определитель матрицы: " + Determinantmatrix(mas));
+                Console.ReadKey();
+            }
+            catch
+            {
+                Console.WriteLine("Вы ввели не число");
+            }         
         }
 
         static double Determinantmatrix(double[,] mas)
@@ -52,18 +60,18 @@ namespace _8_задание
 
         static double[,] Minor(double[,] mas, int n)
         {
-            double[,] result = new double[mas.GetLength(0) - 1, mas.GetLength(0) - 1];
+            double[,] res = new double[mas.GetLength(0) - 1, mas.GetLength(0) - 1];
             for (int i = 1; i < mas.GetLength(0); i++)
             {
                 for (int j = 0, col = 0; j < mas.GetLength(1); j++)
                 {
                     if (j == n)
                         continue;
-                    result[i - 1, col] = mas[i, j];
+                    res[i - 1, col] = mas[i, j];
                     col++;
                 }
             }
-            return result;
+            return res;
         }
     }
 }

@@ -6,27 +6,36 @@ namespace _6_задание
     {
         static void Main(string[] args)
         {
-            Console.Write("Введите количество элементов массива: ");
-            int value = Convert.ToInt32(Console.ReadLine());
-            Random random = new Random();
-            Console.WriteLine("Массив:");
-            int[] mas = new int[value];
-            for (int i = 0; i < value; i++)
+            try
             {
-                mas[i] = random.Next(1,10);
+                Console.WriteLine("Программа работает с числами! \nПожалуйста введите число.");
+                Console.Write("Введите количество элементов массива: ");
+                int value = Convert.ToInt32(Console.ReadLine());
+                Random random = new Random();
+                Console.WriteLine("Массив:");
+                int[] mas = new int[value];
+                for (int i = 0; i < value; i++)
+                {
+                    mas[i] = random.Next(1, 10);
+                }
+
+                for (int i = 0; i < value; i++)
+                {
+                    Console.Write(mas[i] + "\t");
+                }
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.WriteLine("sumIterative:" + "\t" + sumIterative(mas));
+                Console.WriteLine("sumRecursive:" + "\t" + sumRecursive(mas));
+                Console.WriteLine("minIterative:" + "\t" + minIterative(mas));
+                Console.WriteLine("minRecursive:" + "\t" + minRecursive(mas, mas[0]));
+                Console.ReadKey();
+            }
+            catch
+            {
+                Console.WriteLine("Вы ввели не число!");
             }
             
-            for (int i = 0; i < value; i++)
-            {
-                Console.Write(mas[i] + "\t");
-            }
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine("sumIterative:" + "\t" + sumIterative(mas));
-            Console.WriteLine("sumRecursive:" + "\t" + sumRecursive(mas));
-            Console.WriteLine("minIterative:" + "\t" + minIterative(mas));
-            Console.WriteLine("minRecursive:" + "\t" + minRecursive(mas, mas[0]));
-            Console.ReadKey();
         }
         static int sumIterative(int[] mas)
         {

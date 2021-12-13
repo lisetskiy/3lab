@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lusetskuy\\source\\repos\\10 задание\\10 задание.csproj": {}
+    "C:\\Users\\lusetskuy\\Documents\\GitHub\\3lab\\10 задание\\10 задание.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lusetskuy\\source\\repos\\10 задание\\10 задание.csproj": {
+    "C:\\Users\\lusetskuy\\Documents\\GitHub\\3lab\\10 задание\\10 задание.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lusetskuy\\source\\repos\\10 задание\\10 задание.csproj",
+        "projectUniqueName": "C:\\Users\\lusetskuy\\Documents\\GitHub\\3lab\\10 задание\\10 задание.csproj",
         "projectName": "10 задание",
-        "projectPath": "C:\\Users\\lusetskuy\\source\\repos\\10 задание\\10 задание.csproj",
+        "projectPath": "C:\\Users\\lusetskuy\\Documents\\GitHub\\3lab\\10 задание\\10 задание.csproj",
         "packagesPath": "C:\\Users\\lusetskuy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lusetskuy\\source\\repos\\10 задание\\obj\\",
+        "outputPath": "C:\\Users\\lusetskuy\\Documents\\GitHub\\3lab\\10 задание\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

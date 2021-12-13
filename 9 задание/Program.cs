@@ -20,11 +20,9 @@ namespace _9_задание
                 Console.WriteLine();
                 Console.WriteLine();
             }
-
 			int sum = 0;
 			for (int i = 0; i < 5; i++)
-			{
-				sum = 0;				
+			{			
 				for (int j = 0; j < 5; j++)
 				{                 
                     sum += mas[i, j] + mas[ i, j ];
