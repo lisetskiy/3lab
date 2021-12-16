@@ -20,8 +20,7 @@ class Program
             {
                 Console.Write(mas1[i, j] + "\t");
             }           
-            Console.WriteLine();
-            Console.WriteLine();
+            Console.WriteLine("\n");
         }
 
         Console.WriteLine("Массив 2");
@@ -40,8 +39,7 @@ class Program
                 mas2[i, j] = random.Next(1, 10);
                 Console.Write(mas2[i,j] + "\t");
             }
-            Console.WriteLine();
-            Console.WriteLine();
+            Console.WriteLine("\n");
         }
 
         Console.WriteLine("Перемноженная матрица");
@@ -50,7 +48,11 @@ class Program
         {
             for (int j = 0; j < 5; j++)
             {
-                multmas[i, j] = mas1[i, j] * mas2[i, j];
+                multmas[i, j] = 0;
+                for (int k = 0; k <= 5 - 1; k++)
+                {
+                    multmas[i, j] += mas1[i, k] * mas2[k, j];
+                }
             }
         }
         for (int i = 0; i < 5; i++)
@@ -59,8 +61,7 @@ class Program
             {
                 Console.Write(multmas[i, j] + "\t");
             }
-            Console.WriteLine();
-            Console.WriteLine();
+            Console.WriteLine("\n");
         }
         Console.ReadKey();
     }
